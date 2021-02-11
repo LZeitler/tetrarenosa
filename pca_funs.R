@@ -178,7 +178,7 @@ makepca0 <- function(vcfRpca){
 }
 pcaplot0 <- function(data,ev.x,ev.y,varprop1=NULL,varprop2=NULL,...){
     p <- ggplot(data)
-    p <- p + geom_point(size=2,alpha=.7,aes(...))
+    p <- p + geom_point(size=2,alpha=.9,aes(...))
     if(!is.null(varprop1)) {
         p <- p + labs(x = paste('PC', ev.x,round(varprop1*100,2),"%"),
                       y = paste('PC', ev.y,round(varprop2*100,2),"%"))
