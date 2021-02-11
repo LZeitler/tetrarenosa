@@ -1,0 +1,34 @@
+#+TITLE: Tetraploid Arabidopsis arenosa LD pruning and PCA
+
+* What this is
+  This repository has scripts to run prune a vcf file based on linkage disequilibrium for tetraploid species (or any other ploidy).
+  It also provides example code to use pruning for a PCA analysis.
+
+  If you use this code please cite this paper
+
+* Settings
+
+  - ~windowsize~ defines the windowsize for each random start site
+  - ~r cutoff~ defines the threshold value for correlations among genotypes
+  
+* Adjustments for different ploidies
+  The programs uses a matrix of genotypes converted from a vcf file using a range of ~sed~ commands in the file ~ld_easy_prepvcf.sh~.
+
+  #+begin_src bash
+  sed -i -e 's;0/0/0/0;0;g'  $MDIR/matrix_$SCAF.txt
+  sed -i -e 's;0/0/0/1;1;g'  $MDIR/matrix_$SCAF.txt
+  sed -i -e 's;0/0/1/1;2;g'  $MDIR/matrix_$SCAF.txt
+  sed -i -e 's;0/1/1/1;3;g'  $MDIR/matrix_$SCAF.txt
+  sed -i -e 's;1/1/1/1;4;g'  $MDIR/matrix_$SCAF.txt
+  sed -i -e 's;./././.;NA;g' $MDIR/matrix_$SCAF.txt
+  #+end_src>
+
+  You can edit these lines to adjust to the ploidy you wish to analyse, and add more lines if needed for higher ploidies.
+  
+* Requirements
+
+  R (tested on 3.6.0)
+  bcftools, bgzip (included in [[http://www.htslib.org/download/][samtools]] 1.9)
+  
+  
+  
