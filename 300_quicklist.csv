@@ -1,0 +1,45 @@
+population,ploidy,location,lat,long,elev,class,diff,nind
+BEL,2,Belecgrad,46.16167,16.115,550,Dinaric_2x,1,8
+BGS,4,Berchtesgaden,47.62806,13.00167,570,Alp_Herc_4x,1,0
+BIH,2,Bihać,44.88181,15.89882,217,Dinaric_2x,1,8
+BRD,4,Brdatka,50.04967,13.89081,350,Alp_Herc_4x,1,0
+CHO,4,Chokier,50.59298,5.44383,103,Alp_Herc_4x,1,0
+CRO,2,Ljubičko Brdo+Zavižan,44.53147,15.19402,1076,Croatica_2x,1,4
+DFS,4,Deadfalls,62.922218,15.95832,330,Ruderal_4x,1,0
+DRA,4,Dambovicioara,45.44164,25.22394,858,SCarp_4x,1,0
+FOJ,2,Fojnica,43.97502,17.82446,754,Dinaric_2x,1,8
+GOR,2,Gornjak,44.26528,21.54271,184,SCarp_2x,1,8
+GST,4,Swabia (Grindel Steig+Upfinger Steig),48.44784,9.422422,700,Alp_Herc_4x,1,0
+GUL,4,Gulsen bei Kraubath (S3),47.281679,14.927647,820,Alp_Herc_4x,1,0
+HAR,4,Hardegg,48.85166,15.85833,400,Alp_Herc_4x,1,0
+HNE,2,Hontianske Nemce,48.26694,19,280,Pannonian_2x,1,7
+HNI,2,Hnilčík,48.8775,20.5275,836,WCarp_2x,1,4
+HOC,4,Hochlantsch,47.37,15.38667,580,Alp_Herc_4x,1,0
+KAS,4,Kasparstein,46.68833,14.87167,660,Alp_Herc_4x,1,0
+KOS,4,Kößlbach,47.74694,13.68972,467,Alp_Herc_4x,1,0
+KOW,4,Kowary,50.763153,15.8439,670,Ruderal_4x,1,0
+KZL,2,Kesztölc,47.72444,18.77917,330,Pannonian_2x,2,5
+LAC,4,Lacul Capra,45.59535,24.63458,2092,SCarp_4x,1,0
+MIE,2,Miedzyzdroje,53.92109,14.42157,5,Balt_2x,1,8
+PRE,2,Preila,55.37821,21.03231,1,Balt_2x,1,8
+RFT,4,Reiftal,48.10104,9.049581,790,Alp_Herc_4x,1,0
+RZA,2,Retezat,45.37778,22.75833,850,SECarp_2x,2,9
+SCH,4,Schießeck,47.27767,14.3219,2240,Alp_Herc_4x,1,0
+SNO,2,Strečno,49.17417,18.86167,390,WCarp_2x,2,5
+SPI,4,Dreveník,48.98889,20.775,550,WCarp_4x,1,0
+STE,4,Stęszew,52.28028,16.70944,80,Ruderal_4x,1,0
+SZI,2,Szigligeti vár,46.80667,17.43444,130,Pannonian_2x,2,5
+TBG,4,Triberg,48.13972,8.23667,640,Ruderal_4x,1,0
+TKO,4,Tri Kopy,49.20451,19.7352,1783,WCarp_4x,1,0
+TRD,2,Tristárska dolina,49.251596,20.206285,1380,WCarp_2x,1,6
+TRE,4,Trenčín,48.89417,18.04472,280,WCarp_4x,1,0
+TRT,4,Tristárska dolina,49.24932,20.20498,1700,WCarp_4x,1,0
+TZI,4,Cheile Turzii,46.56667,23.67417,511,SCarp_4x,1,0
+VEL,2,Velická dolina,49.162,20.15419,1823,WCarp_2x,1,8
+VID,2,Vidraru,45.36392,24.63756,900,SCarp_2x,1,8
+WEK,4,Weißenkirchen,48.405022,15.472906,359,Alp_Herc_4x,1,0
+ZAP,4,Zakopane,49.278343,19.96706,915,WCarp_4x,1,0
+ZGG,2,Zugliget,47.516344,18.975426,240,Pannonian_2x,1,0
+MOS,4,Moutier,47.267761,7.355182,608,Alp_Herc_4x,1,0
+GOS,4,Goeschenen,46.664754,8.564723,1200,Ruderal_4x,1,0
+SWA,4,Swabian Alp,NA,NA,NA,Alp_Herc_4x,NA,NA
