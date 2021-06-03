@@ -8,7 +8,7 @@
 
 ** Files
    - ~ld_easy.R~ is the implementation of the actual pruning
-   - ~example.R~ shows how to use the pruning with a vcf file, and calls shell scrips and the R script ~ld_easy.R~
+   - ~example.R~ shows how to use the pruning with a vcf file, and calls shell scripts and the R script ~ld_easy.R~
    - ~pca_plot.R~ runs the PCA described in the paper, and sources ~pca_funs.R~
 
 * Settings
