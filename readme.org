@@ -4,7 +4,7 @@
   This repository has scripts to run prune a vcf file based on linkage disequilibrium for tetraploid species (or any other ploidy).
   It also provides example code to use pruning for a PCA analysis.
 
-  If you use this code please cite this paper: [still missing]
+  If you use this code please cite this paper: https://onlinelibrary.wiley.com/doi/full/10.1111/mec.16084
 
 ** Files
    - ~ld_easy.R~ is the implementation of the actual pruning
